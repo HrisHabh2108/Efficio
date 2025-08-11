@@ -21,7 +21,8 @@ Attachments Support – File links can be attached to tasks.
 Mobile-Friendly UI – Optimized for desktops, tablets, and smartphones.
 
 # 📂 Project Structure
-<img width="864" height="606" alt="image" src="https://github.com/user-attachments/assets/58b29864-27c8-4151-9055-5bab06cbf3a2"/>
+<img width="907" height="629" alt="image" src="https://github.com/user-attachments/assets/a0ec936f-9ca2-4188-b5d5-420b6d4f44b1" />
+
 
 
 # ⚙ Installation
