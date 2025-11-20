@@ -6,10 +6,12 @@ export const API_PATHS={
         REGISTER:"/api/auth/register",//Register a new user(Admin or Member)
         LOGIN:"/api/auth/login",//Authenticate user & return JWT token
         GET_PROFILE:"/api/auth/profile",//Get logged-in user details
+        UPDATE_PROFILE:"/api/auth/profile",//Update logged-in user details
     },
     USERS: {
+    GET_ALL_USERS: "/api/users", // Get all users
     GET_USER_BY_ID: (userId) => `/api/users/${userId}`, // Get user by ID
-    CREATE_USER: "/api/users", // Create a new user (Admin only)
+    //CREATE_USER: "/api/users", // Create a new user (Admin only)==============
     UPDATE_USER: (userId) => `/api/users/${userId}`, // Update user details
     DELETE_USER: (userId) => `/api/users/${userId}`, // Delete a user
     },
