@@ -24,12 +24,12 @@ const UserCard = ({ userInfo }) => {
         />
         <StatCard
             label="In Progress"
-            count={userInfo?.pendingTasks || 0}
+            count={userInfo?.inProgressTasks || 0}
             status="In Progress"
         />
         <StatCard
             label="Completed"
-            count={userInfo?.pendingTasks || 0}
+            count={userInfo?.completedTasks || 0}
             status="Completed"
         />
       </div>

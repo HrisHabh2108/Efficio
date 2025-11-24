@@ -4,6 +4,7 @@ import axiosInstance from '../../utils/axiosInstance'
 import { API_PATHS } from '../../utils/apiPaths'
 import { LuFileSpreadsheet } from 'react-icons/lu'
 import UserCard from '../../components/Cards/UserCard'
+
 const ManageUsers = () => {
   const [allUsers, setAllUsers] = useState([]);
 
@@ -48,11 +49,11 @@ const ManageUsers = () => {
 
   return (
     <DashboardLayout activeMenu="Team Members">
-      <div className="ms-mb-10">
-        <div className="md:flex-row md:items-center justify-between">
-          <h2 className="text-xl font-medium">Team Members</h2>
+      <div className="mt-5 mb-10">
+        <div className="flex md:flex-row md:items-center justify-between">
+          <h2 className="text-xl md:text-xl font-medium">Team Members</h2>
           <button
-            className="md:flex download-btn"
+            className="flex md:flex download-btn"
             onClick={handleDownloadReport}
           >
             <LuFileSpreadsheet className='text-lg'/>

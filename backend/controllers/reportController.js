@@ -60,8 +60,8 @@ const exportTasksReport= async(req,res)=>{
 //@access Private(Admin)
 const exportUsersReport= async(req,res)=>{
     try{
-        const users=await User.find().select("name email_id").lean();
-        const userTasks=await Task.find().populate("assignedTo","name email _id");
+        const users=await User.find().select("name email").lean();
+        const userTasks=await Task.find().populate("assignedTo","name email");
         
         const userTaskMap={};
         users.forEach((user)=>{
